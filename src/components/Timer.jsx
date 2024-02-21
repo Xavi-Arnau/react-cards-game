@@ -9,7 +9,7 @@ const Timer = ({ end }) => {
         clearInterval(interval);
       };
     }
-  }, [time]);
+  }, [time, end]);
   return (
     <h1>
       Seconds elapsed: <span>{time}</span>
