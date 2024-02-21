@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Gloria Hallelujah", cursive;
+  user-select: none;
+}
+
+h1 {
+  font-size: 3rem;
+  margin: 2rem 3rem 5rem;
+}
+
+.container {
+  margin: 3rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+}
+
+.card {
+  width: 10rem;
+  font-size: 5rem;
+  font-weight: bold;
+  text-align: center;
+  color: #fffd;
+  background-color: #847;
+  border-radius: 1.5rem;
+  padding: 3rem 2rem;
+  outline: 0.5rem solid #646;
+  border: 0.2rem solid #fff;
+  box-shadow: 1rem 1rem 1rem #0006;
+}
+
+.card-front {
+  background-color: #349;
+  outline: 0.5rem solid #127;
+}
